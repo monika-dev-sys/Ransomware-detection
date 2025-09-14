@@ -111,7 +111,4 @@ logs/activity.log
 
 ---
 
-```
 
-Let me know if you want this saved as a file (`README.md`) so you can upload it directly.
-```
