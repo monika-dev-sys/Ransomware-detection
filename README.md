@@ -8,7 +8,7 @@ This project implements a Python-based ransomware detection system using honeypo
 
 ##Project Structure
 
-
+-------------------------------------------------------------------------
 ├── src/
 │   ├── monitor.py           # Monitors the filesystem
 │   ├── honeypot.py          # Deploys honeypot files
@@ -25,7 +25,7 @@ This project implements a Python-based ransomware detection system using honeypo
 ├── config.json              # Configuration settings
 ├── requirements.txt         # Python package requirements
 ├── 67.js                    # (Optional) External JS - clarify usage
-```
+-----------------------------------------------------------------------
 
  Getting Started
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 Machine Learning
 
-🏋️‍♀️ Training the Model
+ Training the Model
 
 Run the following to generate synthetic data and train the Random Forest model:
 
@@ -64,12 +64,12 @@ python src/detector.py
 
 output
 
-
+-------------------------------------------------
 ====== Ransomware Detection ======
 Input Features : [10, 0.9, 15, 50]
 Prediction     : Ransomware Detected!
 ==================================
-
+--------------------------------------------------
 You can modify the input in `detector.py` to simulate other scenarios.
 
 Honeypot System
@@ -112,6 +112,3 @@ All events and detections are stored in `logs/activity.log`.
 
 
 
----
-
-Would you like me to export this as a ready-to-upload `README.md` file too?
